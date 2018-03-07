@@ -1,0 +1,47 @@
+ README #
+
+### What is this repository for? ###
+
+	Kap 8. Lab exercises d) (OBLIG) En prosess sin bruk av virtuelt og fysisk minne.
+
+### How do I run program? ###
+
+last ned repo
+
+i terminalen: flytt deg til den mappen som har dette scriptet
+
+kjoor kommando:
+ 
+	chmod +x procmi.bash
+    
+    ps -a
+    
+velg en prosessID [xxxx]
+
+    ./procmi.bash [xxxx]
+
+### code quality ###
+Til kvalitetstesing av koden har jeg kjoort 
+alle testene som Erik H. henviser til paa siden(7.3.2018):
+ 
+ 	https://github.com/NTNUcourses/opsys/blob/master/README-Bash-code-quality.txt 
+  
+  
+  Kjoorte foolgende:
+  
+      bash -n procmi.bash
+       
+  Resultat:
+  
+       alt ok
+       
+  Kjoorte foolgende:
+  
+      shellcheck procmi.bash 
+	  
+  Resultat:
+  
+       alt ok  
+
+### Who do I talk to? ###
+Alexander Jakobsen, 16BITSEC, Studentnr: 473151, alexajak@stud.ntnu.no
