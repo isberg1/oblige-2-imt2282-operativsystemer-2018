@@ -64,8 +64,8 @@ function modes {
  k3=$(echo "$k2-$k1" | bc  )          # regn ut antall kernelmode hendelser siste sek
  diff=$(echo "$sum2-$sum1" | bc  )    # regn ut totalt antall hendeser siste sek
 
- uAndel=$( echo " 100*$u3/$diff " | bc )  # regn ut % av tid i usermode
- kAndel=$( echo " 100*$k3/$diff " | bc )  # regn ut % av tid i kernelmode
+ uAndel=$( echo " 100 * $u3/$diff " | bc )  # regn ut % av tid i usermode
+ kAndel=$( echo " 100 * $k3/$diff " | bc )  # regn ut % av tid i kernelmode
  
 # skriv til consol
  skriv "Det siste sekundet var CPU $uAndel % i usermode og $kAndel % i kernelmode"
