@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Oppgave: kap 8. lab exercices c) (OBLIG) Page faults
+ 
+# File:   chromemajPF.bash
+# Author: Alexander Jakobsen, 16BITSEC, Studentnr: 473151
+# E-mail: alexajak@stud.ntnu.no
+# Created on Mach 7, 2018, 18:00 AM
+# Created with gvim in Ubuntu 16.04.3 LTS
+
+
 #################### Feilskjekk ####################
 
 #sjekker at det ikke er sendet med argumenter
