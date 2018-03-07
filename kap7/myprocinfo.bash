@@ -39,9 +39,9 @@ function skriv {
 # $1 = hva det sookes etter i /proc/stat (f.exs: ctxt)
 # $2 = text som forklarer hva det sookes etter (f.exs: contextswitch)
 function antSisteSec {
- a=$( grep $1 /proc/stat | awk '{ print $2}') # hent riktig tall
+ a=$( grep "$1" /proc/stat | awk '{ print $2}') # hent riktig tall
  sleep 1                                      # sov i 1 sek
- b=$( grep $1 /proc/stat | awk '{ print $2}') # hent riktig tall
+ b=$( grep "$1" /proc/stat | awk '{ print $2}') # hent riktig tall
  c=$(echo "$b-$a" | bc )                      # regn ut ant hendelser siste sek
  skriv "antall $2 det siste sekunder er $c"   # print resultat til konsol
 }
