@@ -1,3 +1,44 @@
-READMY for myprocinfo.bash
+ README #
 
-for aa kjore dett
+### What is this repository for? ###
+
+	Kap 7. Lab exercises a) (OBLIG) Prosesser og traader.
+
+### How do I run program? ###
+
+last ned repo
+
+i terminalen: flytt deg til den mappen som har dette scriptet
+
+kjoor kommando:
+
+	chmod +x myprocinfo.bash
+	
+	./myprocinfo.bash
+
+
+### code quality ###
+Til kvalitetstesing av koden har jeg kjoort 
+alle testene som Erik H. henviser til paa siden(7.3.2018):
+ 
+ 	https://github.com/NTNUcourses/opsys/blob/master/README-Bash-code-quality.txt 
+  
+  
+  Kjoorte foolgende:
+  
+      bash -n myprocinfo.bash 
+       
+  Resultat:
+  
+       alt ok
+  Kjoorte foolgende:
+  
+      shellcheck myprocinfo.bash
+	  
+  Resultat:
+  
+       alt ok
+  
+
+### Who do I talk to? ###
+Alexander Jakobsen, 16BITSEC, Studentnr: 473151, alexajak@stud.ntnu.no
