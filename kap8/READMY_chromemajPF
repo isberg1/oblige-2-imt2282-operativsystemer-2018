@@ -1,0 +1,47 @@
+ READMY #
+
+### What is this repository for? ###
+
+	Kap 8. Lab exercises c) (OBLIG) Page faults
+
+### How do I run program? ###
+for aa kjoore dette scriptet maa du ha chrome installert på PC-en
+dette kan gjoores fra forlgende nettside:
+    
+    https://www.google.com/chrome/ 
+
+last ned repo
+
+i terminalen: flytt deg til den mappen som har dette scriptet
+
+kjoor kommando:
+ 
+	chmod +x chromemajPF.bash
+    
+    ./chromemajPF.bash 
+
+### code quality ###
+Til kvalitetstesing av koden har jeg kjoort 
+alle testene som Erik H. henviser til paa siden(7.3.2018):
+ 
+ 	https://github.com/NTNUcourses/opsys/blob/master/README-Bash-code-quality.txt 
+  
+  
+  Kjoorte foolgende:
+  
+      bash -n chromemajPF.bash 
+       
+  Resultat:
+  
+       alt ok
+       
+  Kjoorte foolgende:
+  
+      shellcheck chromemajPF.bash
+	  
+  Resultat:
+  
+       alt ok  
+
+### Who do I talk to? ###
+Alexander Jakobsen, 16BITSEC, Studentnr: 473151, alexajak@stud.ntnu.no
