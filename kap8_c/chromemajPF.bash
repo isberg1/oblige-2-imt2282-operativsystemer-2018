@@ -39,7 +39,7 @@ function sjekkFeil {
 # sync ; echo 3 | sudo tee /proc/sys/vm/drop_caches
 
 # start chrome + kast feilmeldingene som altid kommer, i soopla
-google-chrome > /dev/null 2>&1 &
+google-chrome --password-store=basic > /dev/null 2>&1 &
 e=$?                                      # hent returverdi
 sjekkFeil $e                              # sjekk om forrige programm-call lyktes
 
